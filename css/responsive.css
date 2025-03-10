@@ -1,5 +1,5 @@
-@media screen and(min-width:576px) {
-    
-}
-
-/*576 768  992 100 1400*/
+@include media-breakpoint-down(sm) { ... }
+@include media-breakpoint-down(md) { ... }
+@include media-breakpoint-down(lg) { ... }
+@include media-breakpoint-down(xl) { ... }
+@include media-breakpoint-down(xxl) { ... }
